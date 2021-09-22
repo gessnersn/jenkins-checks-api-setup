@@ -1,0 +1,26 @@
+{
+    "issues": [
+        {
+            "fileName": "test.xml",
+            "severity": "ERROR",
+            "lineStart": 110,
+            "lineEnd": 111,
+            "columnStart": 210,
+            "columnEnd": 220,
+            "message": "some message",
+            "description": "some description"
+        },
+        {
+            "fileName": "some.properties",
+            "severity": "NORMAL",
+            "lineStart": 20,
+            "other":true,
+            "additional": "stuff"
+        },
+        {
+            "fileName": "non-existing",
+            "severity": "ERROR",
+            "other":true
+        }
+    ]
+}

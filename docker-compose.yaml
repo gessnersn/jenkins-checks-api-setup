@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  jenkins:
+    image: "jenkins/jenkins:2.263.3-lts"
+    volumes:
+    - "./jenkins_home:/var/jenkins_home"
+    ports:
+    - "8080:8080"
+    
